@@ -1,0 +1,73 @@
+.footer__form {
+    margin-left: 95px;
+    margin-top: 12px;
+}
+
+.footer__form--span {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__input {
+    position: relative;
+    margin-top: 35px;
+    background-color: #2F303A;
+    width: 360px;
+    height: 50px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding-left: 15px;
+
+    &::placeholder {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.footer__button {
+    width: 200px;
+    display: inline-block;
+    padding: 0;
+    margin-left: 10px;
+    background: #2196F3;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 30px;
+    background-image: url(../../images/icon-send.svg);
+    background-repeat: no-repeat;
+    background-position: 150px 50%;
+    cursor: pointer;
+}
+
+.footer__button--text {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding: 0;
+}
