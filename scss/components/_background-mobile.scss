@@ -1,36 +1,23 @@
 .background {
-    width: 1600px;
-    padding: 1px;
+    width: 480px;
     margin: 0 auto;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/img20.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/img20-2.jpg);
+    padding: 118px 60px;
 }
 
-
 .background__text {
-    font-family: 'Roboto';
-    font-size: 44px;
-    line-height: 1.4;
+    font-family: 'Roboto'; 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
     margin: 0 auto;
-}
-
-
-.background__div {
-    margin-top: 70px;
     margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 700px;
-    height: 125px;
-    margin: 200px auto 30px;
-
-}
-
-.background__title {
-    margin: 200px auto;
 }
 
 .background__button {

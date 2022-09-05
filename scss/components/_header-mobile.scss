@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.button__menu {
+    display: none;
+}
+
+.header__nav {
+    display: none;
+}
+
+.list {
+    display: none;
+}
+
+.header {
+    width: 480px;
+    background-color: #fff;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.logo {
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+.logo__blue--header {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: $accent-color;
+    text-decoration: none;
+}
+
+.logo__black--header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: black;
+    text-decoration: none;
+    margin-left: -6px;
+}
+
