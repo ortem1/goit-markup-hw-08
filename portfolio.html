@@ -14,14 +14,41 @@
 </head>
 <body>
 
+
+    <!-- Мобильное меню -->
+    
+    <div class="menu">
+        <div class="menu__div"><button class="menu__div--button" data-menu-close></button></div>
+
+        <ul class="menu__list">
+            <li class="menu__item--li"><a class="menu__item studio" href="./index.html">Студия</a></li>
+            <li class="menu__item--li"><a class="menu__item portfolio active" href="./portfolio.html">Портфолио</a></li>
+            <li class="menu__item--li"><a class="menu__item" href="">Контакты</a></li>
+        </ul>
+        <ul class="contacts__list">
+            <li class="menu__item--li"><a class="menu__phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="menu__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        </ul>
+        <ul class="social__list">
+            <li><a class="menu__social" href="">Instagram</a></li>
+            <li><a class="menu__social" href="">Twitter</a></li>
+            <li><a class="menu__social" href="">Facebook</a></li>
+            <li><a class="menu__social border" href="">Linkedin</a></li>
+        </ul>
+    </div>
+
     <!--Шапка портфолио-->
 
 <header>
 
     <div class="header">
+
         <div class="logo">
-            <a class="logo__blue" href="">Web <span class="logo__black">Studio</span></a>
+            <a class="logo__blue--header" href="">Web <span class="logo__black--header">Studio</span></a>
         </div>
+
+        <button class="button__header" data-menu-open></button>
+
         <nav class="header__nav">
             <ul class="header__list">
                 <li><a class="header__item studio" href="./index.html">Студия</a></li>
@@ -34,14 +61,14 @@
                 <li>
                     <a class="list__mail" href="mailto:">
                         <svg class="svg__mail" height="12px" width="16px">
-                            <use href="./images/symbol-defs.svg#icon-Mail"></use>
+                            <use href="./images/svg/symbol-defs.svg#icon-Mail"></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
                 <li>
                     <a class="list__phone" href="tel:">
                         <svg class="svg__phone" height="16px" width="10px">
-                            <use href="./images/symbol-defs.svg#icon-Phone"></use>
+                            <use href="./images/svg/symbol-defs.svg#icon-Phone"></use>
                         </svg>
                         +38 096 111 11 11</a>
                 </li>
@@ -77,7 +104,13 @@
                             <ul class="portfolio__images">
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img11.jpg" alt="Сайт на ноутбуке" width="370">
+                                        <div class="thumb1">
+                                            <img
+                                            class="thumb__img"
+                                            srcset="/images/portfolioL/img11.jpg 1x, /images/img@2x/img11@2x.jpg 2x" 
+                                            src="/images/portfolioL/img11.jpg" 
+                                            alt="Ноутбук">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                             позволит посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -88,7 +121,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img12.jpg" alt="Баскетбольный постер" width="370">
+                                        <div class="thumb2">
+                                            <img
+                                            srcset="/images/portfolioL/img12.jpg 1x, /images/img@2x/img12@2x.jpg 2x" 
+                                            src="/images/portfolioL/img12.jpg" 
+                                            alt="Баскетбол" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит
                                             посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -99,7 +138,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img13.jpg" alt="Логотип ресторана морепродуктов" width="370">
+                                        <div class="thumb3">
+                                            <img
+                                            srcset="/images/portfolioL/img13.jpg 1x, /images/img@2x/img13@2x.jpg 2x" 
+                                            src="/images/portfolioL/img13.jpg" 
+                                            alt="Рыба" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит
                                             посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -110,7 +155,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img14.jpg" alt="Наушники" width="370">
+                                        <div class="thumb4">
+                                            <img
+                                            srcset="/images/portfolioL/img14.jpg 1x, /images/img@2x/img14@2x.jpg 2x" 
+                                            src="/images/portfolioL/img14.jpg" 
+                                            alt="Наушники" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит
                                             посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -121,7 +172,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img15.jpg" alt="Две коробки" width="370">
+                                        <div class="thumb5">
+                                            <img
+                                            srcset="/images/portfolioL/img15.jpg 1x, /images/img@2x/img15@2x.jpg 2x" 
+                                            src="/images/portfolioL/img15.jpg" 
+                                            alt="Коробки" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит
                                             посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -132,7 +189,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img16.jpg" alt="Монитор компьютера" width="370">
+                                        <div class="thumb6">
+                                            <img
+                                            srcset="/images/portfolioL/img16.jpg 1x, /images/img@2x/img16@2x.jpg 2x" 
+                                            src="/images/portfolioL/img16.jpg" 
+                                            alt="Монитор" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                             позволит посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -143,7 +206,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img17.jpg" alt="Раскрытая книга" width="370">
+                                        <div class="thumb7">
+                                            <img
+                                            srcset="/images/portfolioL/img17.jpg 1x, /images/img@2x/img17@2x.jpg 2x" 
+                                            src="/images/portfolioL/img17.jpg" 
+                                            alt="Книга" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                             позволит посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -154,7 +223,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img18.jpg" alt="Этикетка" width="370">
+                                        <div class="thumb8">
+                                            <img
+                                            srcset="/images/portfolioL/img18.jpg 1x, /images/img@2x/img18@2x.jpg 2x" 
+                                            src="/images/portfolioL/img18.jpg" 
+                                            alt="Ярлык" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                             позволит посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -165,7 +240,13 @@
                                 </li>
                                 <li class="portfolio__card" href="">
                                     <div class="portfolio__card--overflow">
-                                        <img src="./images/img19.jpg" alt="Мужчина печатает на ноутбуке" width="370">
+                                        <div class="thumb9">
+                                            <img
+                                            srcset="/images/portfolioL/img19.jpg 1x, /images/img@2x/img19@2x.jpg 2x" 
+                                            src="/images/portfolioL/img19.jpg" 
+                                            alt="Работа на ноутбуке" 
+                                            class="thumb__img">
+                                        </div>
                                         <h5 class="portfolio__card--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                             позволит посетителю получить
                                             исчерпывающие сведения о компании или частном лице.
@@ -189,7 +270,7 @@
         <div class="footer__div">
             <div class="footer__contacts">
                 <div class="footer__logo">
-                    <a class="logo__blue" href="">Web <span class="logo__white">Studio</span></a>
+                    <a class="logo__blue--footer" href="">Web <span class="logo__white--footer">Studio</span></a>
                 </div>
                 <div class="footer__nav">
                     <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
@@ -203,36 +284,37 @@
                     <a href="">
                         <li class="footer__item">
                             <svg class="footer__svg" width="20" height="20">
-                                <use href="./images/symbol-defs.svg#icon-Instagram"></use>
+                                <use href="./images/svg/symbol-defs.svg#icon-Instagram"></use>
                             </svg>
                         </li>
                     </a>
                     <a href="">
                         <li class="footer__item">
                             <svg class="footer__svg" width="20" height="20">
-                                <use href="./images/symbol-defs.svg#icon-Twitter"></use>
+                                <use href="./images/svg/symbol-defs.svg#icon-Twitter"></use>
                             </svg>
                         </li>
                     </a>
                     <a href="">
                         <li class="footer__item">
                             <svg class="footer__svg" width="20" height="20">
-                                <use href="./images/symbol-defs.svg#icon-Facebook"></use>
+                                <use href="./images/svg/symbol-defs.svg#icon-Facebook"></use>
                             </svg>
                         </li>
                     </a>
                     <a href="">
                         <li class="footer__item">
                             <svg class="footer__svg" width="20" height="20">
-                                <use href="./images/symbol-defs.svg#icon-Linkedin"></use>
+                                <use href="./images/svg/symbol-defs.svg#icon-Linkedin"></use>
                             </svg>
                         </li>
                     </a>
                 </ul>
             </div>
+
             <form class="footer__form">
+                <p class="footer__form--span">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
                 <label>
-                    <span class="footer__form--span">ПОДПИШИТЕСЬ НА РАССЫЛКУ</span>
                     <input class="footer__input" type="text" name="mail" placeholder="E-mail">
                 </label>
                 <button class="footer__button" type="submit">
@@ -240,11 +322,11 @@
                         Подписаться
                     </span>
                 </button>
-    
             </form>
+
         </div>
     
-    
+    <script src="./mobile-menu.js"></script>
     
     
     </footer>

@@ -1,54 +1,62 @@
 .work {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: none;
 }
 
-.work__card {
-    position: relative;
-    max-height: 294px;
+@media screen and (min-width: 1200px) {
+
+    .work {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work__card {
+            position: relative;
+            max-height: 294px;
+        }
+    
+    .work__card--position {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(47, 48, 58, 0.8);
+    }
+
+    .work__card--text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 27px 82px;
+    }
+
+
+    .work__caption {
+        font-family: 'Roboto';
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin: 94px auto 50px;
+    }
+
+
+    .work__list {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-inline-start: 0;
+        gap: 30px;
+
+    }
 }
 
-.work__card--position {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(47, 48, 58, 0.8);
-}
-
-.work__card--text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 27px 82px;
-}
-
-
-.work__caption {
-    font-family: 'Roboto';
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin: 0 auto 50px;
-}
-
-
-.work__list {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-inline-start: 0;
-    gap: 30px;
-
-}

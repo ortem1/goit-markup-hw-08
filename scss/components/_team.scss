@@ -1,29 +1,96 @@
 .team {
-    padding: 95px 0;
-    width: 1600px;
+    padding: 60px 0 30px;
+    width: 480px;
     margin: 0 auto;
     background-color: #F5F4FA;
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 95px 0;
+        width: 1600px;
+    }
 }
 
 .team__list {
-    display: flex;
     list-style-type: none;
     padding-inline-start: 0;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    width: 1170px;
     margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        list-style-type: none;
+        padding-inline-start: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 1170px;
+        margin: 0 auto;
+    }
+}
+
+.team__img {
+    width: 450px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    } 
+}
+
+.team__card {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    background-color: #FFFFFF;
+    margin: 0 auto 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+        margin: 0;
+    }
 }
 
 .team__caption {
     font-family: 'Roboto';
-    font-size: 36px;
-    line-height: 1.2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        margin: 0 auto 50px;
+    }
 }
 
 .team__card--user {
@@ -46,18 +113,6 @@
     padding: 0 auto;
 }
 
-.team__card {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: baseline;
-    background-color: #FFFFFF;
-    padding-bottom: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-
 .team__card--svg {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,7 +123,11 @@
     list-style: none;
     gap: 10px;
     padding: 0;
-    margin: 0 auto;
+    margin: 0 auto 24px;
+
+    @media screen and (min-width: 1200px) {
+        margin: 0 auto 30px;
+    }
 }
 
 .team__section {
