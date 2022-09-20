@@ -1884,6 +1884,11 @@ body {
     background-image: url(../../images/portfolioM/img11.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .thumb1 {
+    background-image: url(../../images/portfolioL/img11.jpg);
+  }
+}
 
 .thumb2 {
   width: 100%;
@@ -1893,6 +1898,11 @@ body {
 @media screen and (min-width: 768px) {
   .thumb2 {
     background-image: url(../../images/portfolioM/img12.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thumb2 {
+    background-image: url(../../images/portfolioL/img12.jpg);
   }
 }
 
@@ -1906,6 +1916,11 @@ body {
     background-image: url(../../images/portfolioM/img13.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .thumb3 {
+    background-image: url(../../images/portfolioL/img13.jpg);
+  }
+}
 
 .thumb4 {
   width: 100%;
@@ -1915,6 +1930,11 @@ body {
 @media screen and (min-width: 768px) {
   .thumb4 {
     background-image: url(../../images/portfolioM/img14.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thumb4 {
+    background-image: url(../../images/portfolioL/img14.jpg);
   }
 }
 
@@ -1928,6 +1948,11 @@ body {
     background-image: url(../../images/portfolioM/img15.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .thumb5 {
+    background-image: url(../../images/portfolioL/img15.jpg);
+  }
+}
 
 .thumb6 {
   width: 100%;
@@ -1937,6 +1962,11 @@ body {
 @media screen and (min-width: 768px) {
   .thumb6 {
     background-image: url(../../images/portfolioM/img16.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thumb6 {
+    background-image: url(../../images/portfolioL/img16.jpg);
   }
 }
 
@@ -1950,6 +1980,11 @@ body {
     background-image: url(../../images/portfolioM/img17.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .thumb7 {
+    background-image: url(../../images/portfolioL/img17.jpg);
+  }
+}
 
 .thumb8 {
   width: 100%;
@@ -1961,6 +1996,11 @@ body {
     background-image: url(../../images/portfolioM/img18.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .thumb8 {
+    background-image: url(../../images/portfolioL/img18.jpg);
+  }
+}
 
 .thumb9 {
   width: 100%;
@@ -1970,6 +2010,11 @@ body {
 @media screen and (min-width: 768px) {
   .thumb9 {
     background-image: url(../../images/portfolioM/img19.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thumb9 {
+    background-image: url(../../images/portfolioL/img19.jpg);
   }
 }
 
